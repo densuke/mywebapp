@@ -1,0 +1,15 @@
+<archetype>
+  <id>mywebapp</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    <resource>src/main/webapp/WEB-INF/context.xml</resource>
+    <resource>src/main/webapp/index.jsp</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/server/AppTest.java</source>
+    <source>src/test/java/client/AppTest.java</source>
+  </testSources>
+</archetype>
